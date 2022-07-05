@@ -16,6 +16,5 @@ List of variables:  <a href="https://github.com/fereidoun-moradi/cast_function/b
 Mapped LTS: <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile.aut">aut file</a> (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/mapped_lts.pdf">LTS diagram</a>)
 
 
-
-
+![Screenshot 2022-07-05 at 12 01 22](https://user-images.githubusercontent.com/45528113/177303776-c648c468-53a7-479b-997e-ef63aafd9012.png)
 
