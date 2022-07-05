@@ -10,7 +10,7 @@ Input state space of a <a href="https://github.com/fereidoun-moradi/Abstraction-
 
 List of variables:  <a href="https://github.com/fereidoun-moradi/Abstraction-tool/blob/main/input.txt">Variables</a>
 
-Mapped LTS: <a href="https://github.com/fereidoun-moradi/Abstraction-tool/blob/main/input.txt">Variables</a>
+Mapped LTS: <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile.aut">Variables</a>
 
 
 
