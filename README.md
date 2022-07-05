@@ -9,7 +9,9 @@ Input state space of a <a href="https://github.com/fereidoun-moradi/Abstraction-
 
 List of variables:  <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/variables_list">variables list</a>
 
-Mapped LTS: <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile.aut">aut file</a>
+Mapped LTS: <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile.aut">aut file</a> (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/mapped_lts.pdf">LTS diagram</a>)
+
+
 
 
 
