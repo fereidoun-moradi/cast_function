@@ -191,6 +191,11 @@ main reactor cast {
 			size_t destination = trans.find("destination=");
 			size_t endDestination = trans.find("executionTime");
 			std::string destNumber = trans.substr(destination+13, endDestination-destination-17);
+			
+			size_t destinationExe = trans.find("executionTime=");
+			size_t endDestinationExe = trans.find("shift");
+			std::string executionTime = trans.substr(destinationExe+15, endDestinationExe-destinationExe-17);
+			//std::cout << executionTime << "\n";
 
 			size_t shifts = trans.find("shift=");
 			size_t shiftd = trans.find(">");
@@ -198,6 +203,7 @@ main reactor cast {
 			if(shifts != std::string::npos){
                 shiftV = stoi(shiftValue);
             }
+
 			
 			std::string tranTime;
 			size_t startTimeTrans = trans.find("<time value=");
@@ -297,7 +303,8 @@ main reactor cast {
                         edges[j].push_back(std::to_string(cnt));
                         state_Id.push_back(std::to_string(cnt));
                         //labels[cnt-1].push_back("time_shifting " + shiftValue + " units"); 
-                        labels[cnt-1].push_back("@(" + std::to_string(state_timeValue[j]) + ">>" + shiftValue + ")"); 
+                        //labels[cnt-1].push_back("@(" + std::to_string(state_timeValue[j]) + ">>" + shiftValue + ")"); 
+                        labels[cnt-1].push_back("@(" + executionTime + ">>" + shiftValue + ")");
                         edges[cnt-1].push_back(destNumber);
                         
 
