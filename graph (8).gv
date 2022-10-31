@@ -1,0 +1,129 @@
+digraph G {
+pad=0.3;
+center = TRUE;
+mclimit = 10.0;
+nodesep = 0.4;
+node [shape=circle, minlen=1, fontsize=15, fontname = "verdana-bold"];
+edge [fontsize=12, fontname = "verdana-bold"]
+S0 [ peripheries=2 ];
+S0
+S1
+S2
+S3
+S4
+S5
+S6
+S7
+S8
+S9
+S10
+S11
+S12
+S13
+S14
+S15
+S16
+S17
+S18
+S19
+S20
+S21
+S22
+S23
+S24
+S25
+S26
+S27
+S28
+S29
+S30
+S31
+S32
+S33
+S34
+S35
+S36
+S37
+S38
+S39
+S40
+S41
+S42
+S43
+S44
+S45
+S46
+S47
+S48
+S0 -> S35[label="start_[22_]"];
+S1 -> S4[label="getsense_[22_]"];
+S2 -> S1[label="time +=10"];
+S2 -> S25[label="time +=10"];
+S2 -> S38[label="time +=10"];
+S3 -> S2[label="start_[21_]"];
+S4 -> S7[label="start_[22_]"];
+S5 -> S28[label="start_[23_]"];
+S6 -> S35[label="@(10>>10)"];
+S7 -> S41[label="@(20>>20)"];
+S7 -> S46[label="@(20>>20)"];
+S7 -> S48[label="@(20>>20)"];
+S8 -> S20[label="@(20>>10)"];
+S8 -> S26[label="@(20>>10)"];
+S8 -> S39[label="@(20>>10)"];
+S9 -> S41[label="@(30>>30)"];
+S9 -> S46[label="@(30>>30)"];
+S9 -> S48[label="@(30>>30)"];
+S10 -> S20[label="@(30>>20)"];
+S10 -> S26[label="@(30>>20)"];
+S10 -> S39[label="@(30>>20)"];
+S11 -> S31[label="switchoff_[23_]"];
+S12 -> S10[label="switchoff_[21_]"];
+S13 -> S12[label="getsense_[21_]"];
+S14 -> S13[label="time +=10"];
+S14 -> S18[label="time +=10"];
+S14 -> S32[label="time +=10"];
+S15 -> S14[label="activate_h_[20_]"];
+S16 -> S14[label="@(30>>10)"];
+S17 -> S16[label="resume_heating_[20_]"];
+S18 -> S17[label="getsense_[20_]"];
+S19 -> S24[label="time +=10"];
+S19 -> S32[label="time +=10"];
+S19 -> S40[label="time +=10"];
+S20 -> S1[label="time +=10"];
+S21 -> S19[label="activate_c_[24_]"];
+S22 -> S19[label="@(30>>10)"];
+S23 -> S22[label="resume_cooling_[24_]"];
+S24 -> S23[label="getsense_[24_]"];
+S25 -> S27[label="getsense_[21_]"];
+S26 -> S25[label="time +=10"];
+S27 -> S8[label="start_[21_]"];
+S28 -> S1[label="time +=10"];
+S28 -> S33[label="time +=10"];
+S28 -> S37[label="time +=10"];
+S29 -> S33[label="time +=10"];
+S30 -> S20[label="@(20>>10)"];
+S30 -> S29[label="@(20>>10)"];
+S30 -> S36[label="@(20>>10)"];
+S31 -> S20[label="@(30>>20)"];
+S31 -> S29[label="@(30>>20)"];
+S31 -> S36[label="@(30>>20)"];
+S32 -> S42[label="getsense_[22_]"];
+S33 -> S34[label="getsense_[23_]"];
+S34 -> S30[label="start_[23_]"];
+S35 -> S43[label="time +=10"];
+S35 -> S45[label="time +=10"];
+S35 -> S47[label="time +=10"];
+S36 -> S37[label="time +=10"];
+S37 -> S21[label="getsense_[24_]"];
+S38 -> S15[label="getsense_[20_]"];
+S39 -> S38[label="time +=10"];
+S40 -> S11[label="getsense_[23_]"];
+S41 -> S43[label="time +=10"];
+S42 -> S9[label="switchoff_[22_]"];
+S43 -> S5[label="getsense_[23_]"];
+S44 -> S6[label="start_[22_]"];
+S45 -> S44[label="getsense_[22_]"];
+S46 -> S45[label="time +=10"];
+S47 -> S3[label="getsense_[21_]"];
+S48 -> S47[label="time +=10"];
+}
