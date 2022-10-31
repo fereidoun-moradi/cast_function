@@ -27,6 +27,6 @@ Input state space of a <a href="https://github.com/fereidoun-moradi/cast_functio
 List of variables:  <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/variables_list_exp2">ignore list</a>
 (This variables list is selected among the variables whose values are changed by the observable actions, i.e., observable messages)
 
-Mapped LTS: <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile.aut">aut file</a> (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/mapped_lts.pdf">LTS diagram</a>)
+Mapped LTS: <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile_exp2.aut">aut file</a> (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/mapped_lts.pdf">LTS diagram</a>)
 
 
