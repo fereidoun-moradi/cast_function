@@ -8,7 +8,7 @@ The <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfun
 
 
 
-# Example.
+# Example 1.
 Input state space of a <a href="https://github.com/fereidoun-moradi/Abstraction-tool/blob/main/RV-Example.rebeca">Timed Rebeca</a> model (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/RV_Example.png">state dransition diagram</a>): <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/RV-Example.statespace">state space file</a>
 
 List of variables:  <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/variables_list">ignore list</a>
@@ -17,3 +17,6 @@ Mapped LTS: <a href="https://github.com/fereidoun-moradi/cast_function/blob/main
 
 ![Screenshot 2022-07-05 at 12 04 32](https://user-images.githubusercontent.com/45528113/177304089-46e46617-750b-4b88-a831-032044330d7b.png)
 
+# Example 2.
+The diagram of the messages passing between actors defined in a model of a room temperature control system.
+[diagram_actors_messages.pdf](https://github.com/fereidoun-moradi/cast_function/files/9899274/diagram_actors_messages.pdf)
