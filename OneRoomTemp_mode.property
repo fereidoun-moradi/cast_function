@@ -1,0 +1,27 @@
+property {
+	define {
+		s_20 = controller.sensedValue == 20;
+		s_21 = controller.sensedValue == 21;
+		s_22 = controller.sensedValue == 22;
+		s_23 = controller.sensedValue == 23;
+		s_24 = controller.sensedValue == 24;
+		
+		s_25 = controller.sensedValue == 25;
+		s_26 = controller.sensedValue == 26;
+		s_27 = controller.sensedValue == 27;
+		s_28 = controller.sensedValue == 28;
+		
+	
+		h_false = hc_unit.heater_on == false;
+		c_false = hc_unit.cooler_on == false;
+		
+		h_true = hc_unit.heater_on == true;
+		c_true = hc_unit.cooler_on == true;
+		
+		w_open_cold = room.air_blowing == 1;
+		w_open_warm = room.air_blowing == -1;
+		w_close = room.air_blowing == 0;
+		
+	
+	}
+}
