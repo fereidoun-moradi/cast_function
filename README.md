@@ -19,4 +19,5 @@ Mapped LTS: <a href="https://github.com/fereidoun-moradi/cast_function/blob/main
 
 # Example 2.
 The diagram of the messages passing between actors defined in a model of a room temperature control system.
-[diagram_actors_messages.pdf](https://github.com/fereidoun-moradi/cast_function/files/9899274/diagram_actors_messages.pdf)
+
+![diagram_actors_messages](https://user-images.githubusercontent.com/45528113/198962230-89231591-082f-4591-b449-b58471ea3488.jpg)
