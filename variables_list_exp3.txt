@@ -1,1 +1,1 @@
-
+openReqPlc2, pump1On, valveOpen, previous_waterLevel, onReqPlc2, pump1_on, pump2_on, valve_open, drinkableWater, underFlow, low, medium, high, overFlow
