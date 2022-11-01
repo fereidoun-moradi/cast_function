@@ -1,0 +1,58 @@
+property { 
+	
+	define {
+		//s = tank1.stop == true;
+		//s2 = unit.stop == true;
+	
+	
+		//t3_overFlow = tank3.overFlow;
+		
+		t1_overFlow = tank1.overFlow;
+		t1_underFlow = tank1.underFlow;
+		t2_overFlow = tank2.overFlow;
+		t2_underFlow = tank2.underFlow;
+		t3_overFlow = tank3.overFlow;
+		t3_underFlow = tank3.underFlow;
+		//produceWater = tank2.drinkableWater;
+		
+		
+		s_t1_low = plc1.sensedTank1WaterLevel == 1;
+		s_t1_medium = plc1.sensedTank1WaterLevel == 2;
+		s_t1_high = plc1.sensedTank1WaterLevel == 3;
+		s_t1_overflow = plc1.sensedTank1WaterLevel == 4;
+		s_t1_underflow = plc1.sensedTank1WaterLevel == 0;
+		
+		s_t2_low = plc2.sensedTank2WaterLevel == 1;
+		s_t2_medium = plc2.sensedTank2WaterLevel == 2;
+		s_t2_high = plc2.sensedTank2WaterLevel == 3;
+		s_t2_overflow = plc2.sensedTank2WaterLevel == 4;
+		s_t2_underflow = plc2.sensedTank2WaterLevel == 0;
+		
+		s_t3_low = plc3.sensedTank3WaterLevel == 1;
+		//s_t3_medium = plc3.sensedTank3WaterLevel == 2;
+		s_t3_high = plc3.sensedTank3WaterLevel == 3;
+		s_t3_overflow = plc3.sensedTank3WaterLevel == 4;
+		s_t3_underflow = plc3.sensedTank3WaterLevel == 0;
+		
+		
+		p1 = pump1.pump1_on == true;
+		p2 = pump2.pump2_on == true;
+		v = valve.valve_open == true;
+		clw = unit.drinkableWater ==  true;
+	
+		
+		
+	}
+	Assertion{
+		//as1: !(s && s2);
+		safety_tank1_over: !(t1_overFlow);
+		safety_tank1_under: !(t1_underFlow);
+		safety_tank2_over: !(t2_overFlow);
+		safety_tank2_under: !(t2_underFlow);
+		safety_tank3_over: !(t3_overFlow);
+		safety_tank3_under: !(t3_underFlow);
+		//safety_allTanks : !(t1_overFlow || t1_underFlow || t2_overFlow || t2_underFlow || t3_overFlow || t3_underFlow);
+		//rinkableWaterProducing: !(produceWater);
+	}
+	
+}
