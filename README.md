@@ -43,4 +43,5 @@ Below is the console screen of the cast function.
 # Example 3.
 The diagram of the messages passing between actors defined in a model of a secure water treatment system.
 
-![diagram_actors_messages_swat](https://user-images.githubusercontent.com/45528113/199199106-bd566441-360a-46d7-b3c2-4e4f5fe444a3.jpg)
+![diagram_actors_messages_swat drawio](https://user-images.githubusercontent.com/45528113/199199300-2946742b-285a-46f4-b825-2d81adfcd6ee.png)
+
