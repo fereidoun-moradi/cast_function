@@ -32,7 +32,7 @@ Input state space of a <a href="https://github.com/fereidoun-moradi/cast_functio
 List of variables:  <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/variables_list_exp2">ignore list</a>
 (This variables list is selected among the variables whose values are changed by the observable actions, i.e., observable messages)
 
-Mapped LTS: <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile_exp2.aut">aut file</a> (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/state%20transition%20diagram%20exp2.png">LTS diagram</a>) (thee aut file contains 103 states and 129 transtions, and the dot file (LTS diagram) is generated using ltsconvert function in mCRL2 tool.)
+Mapped LTS: <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile_exp2.aut">aut file</a> (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/state%20transition%20diagram%20exp2.png">LTS diagram</a>) (the aut file contains 103 states and 129 transtions, and the dot file (LTS diagram) is generated using ltsconvert function in mCRL2 tool.)
 
 
 
