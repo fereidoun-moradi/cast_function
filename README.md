@@ -42,12 +42,12 @@ Below is the console screen of the cast function.
 
 
 # Example 3.
-The diagram of the messages passing between actors defined in a model of a secure water treatment system.
+The diagram of the messages passing between actors defined in a <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/SWaT_Time_WithoutAttacks.rebeca">Timed Rebeca</a> model of a secure water treatment system.
 
 ![diagram_actors_messages_swat drawio](https://user-images.githubusercontent.com/45528113/199199300-2946742b-285a-46f4-b825-2d81adfcd6ee.png)
 
 
-Input state space of a <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/SWaT_Time_WithoutAttacks.rebeca">Timed Rebeca</a> model (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/SWaT_Time_WithoutAttacks.pdf">state dransition diagram</a>): <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/SWaT_Time_WithoutAttacks.statespace">state space file</a> (The state space includes 688 states and 1825 transtions)
+Input state space of a Timed Rebeca model (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/SWaT_Time_WithoutAttacks.pdf">state dransition diagram</a>): <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/SWaT_Time_WithoutAttacks.statespace">state space file</a> (The state space includes 688 states and 1825 transtions)
 
 ![Screenshot 2022-11-01 at 10 31 59](https://user-images.githubusercontent.com/45528113/199203830-1efc2b37-976d-4a3d-8807-baec7d2ff869.png)
 
