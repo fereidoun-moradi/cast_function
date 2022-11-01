@@ -10,7 +10,7 @@ It outputs a LTS in <a href="https://www.mcrl2.org/web/user_manual/language_refe
 
 The <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfunction_variables.lf">source code</a> of the function is developted in c++ and compiled by  <a href="https://www.lf-lang.org/download">Lingua Franca (LF)</a> compiler. 
 
-Note: The cast function has an option that can get a list of variables as an input list (ignore list) and put the variable's values which are not in the list on the transtions of the mapped state space. 
+Note: The cast function has an option that can get a list of variables as an input list (ignore list) and put the variable's values which are not in the list on the transtions of the mapped state space. To ignore all variables, the ignore list must include all variables name exist in the state space model. 
 
 # Example 1.
 Input state space of a <a href="https://github.com/fereidoun-moradi/Abstraction-tool/blob/main/RV-Example.rebeca">Timed Rebeca</a> model (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/RV_Example.png">state dransition diagram</a>): <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/RV-Example.statespace">state space file</a>
