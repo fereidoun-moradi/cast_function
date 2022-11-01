@@ -38,3 +38,9 @@ Mapped LTS: <a href="https://github.com/fereidoun-moradi/cast_function/blob/main
 Below is the console screen of the cast function.
 ![Screenshot 2022-10-31 at 09 52 04](https://user-images.githubusercontent.com/45528113/198969112-9cd46046-db00-4273-afe9-8d337abae538.png)
 
+
+
+# Example 3.
+The diagram of the messages passing between actors defined in a model of a secure water treatment system.
+
+![diagram_actors_messages_swat](https://user-images.githubusercontent.com/45528113/199199106-bd566441-360a-46d7-b3c2-4e4f5fe444a3.jpg)
