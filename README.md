@@ -11,7 +11,8 @@ It outputs the state space in <a href="https://www.mcrl2.org/web/user_manual/lan
 
 The <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfunction_variables.lf">source code</a> of the cast function is developted in c++ and compiled by  <a href="https://www.lf-lang.org/download">Lingua Franca (LF)</a> compiler. 
 
-The extraction function generates a list of labels for silents transtions. 
+The <a href="https://github.com/fereidoun-moradi/extraction_Function">extraction function</a> generates a list of labels for silent (tau) transtions. 
+
 
 Note: The cast function has an option that can get a list of variables as an input list (ignore list) and put the observable variable's values on the transtions of the mapped state space. 
 
