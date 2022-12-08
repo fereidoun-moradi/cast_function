@@ -6,7 +6,7 @@
 
 
 
-The <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfunction_variables">cast function</a> mapps a state space genrated by Afra model checker to the state space of the mCRL2. 
+The <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfunction_variables">cast function</a> maps a state space genrated by Afra model checker to the state space of the mCRL2. 
 It outputs the state space in <a href="https://www.mcrl2.org/web/user_manual/language_reference/lts.html#language-aut-lts">aut (Aldebaran) format</a>. The mapped state space can be used as the input file in mCRL2 tool for reducing the transtion system based on <a href="https://www.mcrl2.org/web/user_manual/tools/release/ltsconvert.html">difference equivalence relationships</a> and tau transtions.
 
 The <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfunction_variables.lf">source code</a> of the cast function is developted in c++ and compiled by  <a href="https://www.lf-lang.org/download">Lingua Franca (LF)</a> compiler. 
