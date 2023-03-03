@@ -14,7 +14,7 @@ The <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfun
 The <a href="https://github.com/fereidoun-moradi/extraction_Function">extraction function</a> generates a list of labels for silent (tau) transtions. 
  
 
-# Example 1.
+# Example 1: Temperature Control System (simplified version).
 Input state space of an example <a href="https://github.com/fereidoun-moradi/Abstraction-tool/blob/main/RV-Example.rebeca">Timed Rebeca</a> model (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/RV_Example.png">state dransition diagram</a>): <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/RV-Example.statespace">state space file</a>
 
 The example is a reactive system and its <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/RV_Example.png"> diagram</a> shows that it has recurrent behavior. Each state shows a set of state variables {s, w, h}, which their values are changed when the actions {getsense, activate_h, heating, switchoff} are executed. The  {time+=10} denotes that the logical time (i.e., time variable now) progresses by 10 units of time. Transitions show the enabled actions at the states and the progress of time. 
