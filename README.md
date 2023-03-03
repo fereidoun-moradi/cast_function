@@ -15,14 +15,14 @@ The <a href="https://github.com/fereidoun-moradi/extraction_Function">extraction
  
 
 # Example 1: Temperature Control System (simplified version).
-Input state space of an example <a href="https://github.com/fereidoun-moradi/Abstraction-tool/blob/main/RV-Example.rebeca">Timed Rebeca</a> model (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/temp_graph_org.pdf">state dransition diagram</a>): <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/RV-Example.statespace">state space file</a>
+Input state space a <a href="https://github.com/fereidoun-moradi/Abstraction-tool/blob/main/RV-Example.rebeca">Timed Rebeca</a> model (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/temp_graph_org.pdf">state dransition diagram</a>): <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/RV-Example.statespace">state space file</a>
 
-The example is a reactive system and its <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/RV_Example.png"> diagram</a> shows that it has recurrent behavior. Each state shows a set of state variables {s, w, h}, which their values are changed when the actions {getsense, activate_h, heating, switchoff} are executed. The  {time+=10} denotes that the logical time (i.e., time variable now) progresses by 10 units of time. Transitions show the enabled actions at the states and the progress of time. 
-The shift equivalence relation exists between states and the values of the time shifting are tagged on transitions. For example, the transition from state S9 to state S8 has the time shifting with a non-zero value. The label (20>>10) indicates that the time value 20 is shifted to the time value 10 by the amount of 10.
+The example is a reactive system and its diagram shows that it has recurrent behavior. Each state shows state variables 'temperature', which its value is changed when the action 'tempchange' is executed. The  'time + = 10' denotes that the logical time progresses by 10 units of time. Transitions show the enabled actions at the states and the progress of time. 
+The shift equivalence relation exists between states (in blue color in the diagram) and the values of the time shifting are tagged on transitions. The label 'a>>b' indicates that the time value 'a' is shifted by the amount of 'b'.
 
 List of variables:  <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/variables_list">ignore list</a>
 
-Mapped LTS: <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile.aut">aut file</a> (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/mapped_lts.pdf">LTS diagram</a>)
+LTS: <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile.aut">aut file</a> (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/mapped_lts.pdf">LTS diagram</a>)
 
 ![Screenshot 2022-07-05 at 12 04 32](https://user-images.githubusercontent.com/45528113/177304089-46e46617-750b-4b88-a831-032044330d7b.png)
 
