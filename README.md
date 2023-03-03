@@ -7,14 +7,12 @@
 
 
 The <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfunction_variables">cast function</a> maps a state space genrated by Afra model checker to the state space of the mCRL2. 
-It outputs the state space in <a href="https://www.mcrl2.org/web/user_manual/language_reference/lts.html#language-aut-lts">aut (Aldebaran) format</a>. The mapped state space can be used as the input file in mCRL2 tool for reducing the transtion system based on <a href="https://www.mcrl2.org/web/user_manual/tools/release/ltsconvert.html">difference equivalence relationships</a> and tau transtions.
+It outputs the state space in <a href="https://www.mcrl2.org/web/user_manual/language_reference/lts.html#language-aut-lts">aut (Aldebaran) format</a>. The mapped state space can be used as the input file in mCRL2 tool for abstracting the transtion system based on <a href="https://www.mcrl2.org/web/user_manual/tools/release/ltsconvert.html">difference equivalence relationships</a> and a list of silent (tau) transtions.
 
 The <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfunction_variables.lf">source code</a> of the cast function is developted in c++ and compiled by  <a href="https://www.lf-lang.org/download">Lingua Franca (LF)</a> compiler. 
 
 The <a href="https://github.com/fereidoun-moradi/extraction_Function">extraction function</a> generates a list of labels for silent (tau) transtions. 
-
-
-Note: The cast function has an option that can get a list of variables as an input list (ignore list) and put the observable variable's values on the transtions of the mapped state space. 
+ 
 
 # Example 1.
 Input state space of an example <a href="https://github.com/fereidoun-moradi/Abstraction-tool/blob/main/RV-Example.rebeca">Timed Rebeca</a> model (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/RV_Example.png">state dransition diagram</a>): <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/RV-Example.statespace">state space file</a>
