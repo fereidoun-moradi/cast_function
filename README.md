@@ -22,7 +22,7 @@ The shift equivalence relation exists between states (in blue color in the diagr
 
 List of variables:  <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/variables_list">ignore list</a>
 
-LTS: <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/temp_graph_LTS.pdf">aut file</a> (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/temp_graph_LTS.pdf">LTS diagram</a>)
+LTS: <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile.aut">aut file</a> (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/temp_graph_LTS.pdf">LTS diagram</a>)
 
 ![Screenshot 2022-07-05 at 12 04 32](https://user-images.githubusercontent.com/45528113/177304089-46e46617-750b-4b88-a831-032044330d7b.png)
 
