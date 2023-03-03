@@ -24,7 +24,9 @@ List of variables:  <a href="https://github.com/fereidoun-moradi/cast_function/b
 
 LTS: <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile.aut">aut file</a> (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/temp_graph_LTS.pdf">LTS diagram</a>)
 
-![Screenshot 2022-07-05 at 12 04 32](https://user-images.githubusercontent.com/45528113/177304089-46e46617-750b-4b88-a831-032044330d7b.png)
+<img width="1152" alt="Screenshot 2023-03-03 at 09 22 10" src="https://user-images.githubusercontent.com/45528113/222669059-1e046e84-7076-4f96-bc9d-a5267f36619a.png">
+
+
 
 # Example 2.
 he diagram of the messages passing between actors defined in a <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/OneRoomTemp_mode.rebeca">Timed Rebeca</a>  model of a room temperature control system.
